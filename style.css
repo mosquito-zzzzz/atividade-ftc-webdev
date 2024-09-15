@@ -18,7 +18,7 @@ body {
   justify-content: center;
 }
 
-.persInfo{
+.persInfo {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,15 +28,37 @@ body {
   border: 2px solid hsl(193, 88%, 65%)
 }
 
-.imgAvatar{
+.imgAvatar {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-@media screen and (max-width: 900px) {
-  .persInfo{
+@media screen and (min-width: 600px) {
+
+  .disciUltSem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .classes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .classesRow1,
+  .classesRow2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .persInfo {
     flex-direction: column;
     padding: 20px 20px 20px 20px;
   }
