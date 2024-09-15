@@ -6,11 +6,18 @@ html {
 }
 
 body {
+  margin: 5%;
   background-color: #f0fff8;
   font-family: "Poppins", sans-serif;
-  
-;
 }
+
+#qm-sou-eu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .persContainer{
   display: flex;
   justify-content: space-between;
@@ -19,14 +26,16 @@ body {
   padding: 20px 50px 20px 50px;
   margin: 5px;
   border-radius: 20px;
-  /*box-shadow: 0 8px 8px 0 rgb(97, 97, 97, 0.2), 0 6px 20px 0;*/
+  border: 2px solid hsl(193, 88%, 65%)
 }
+
 .imgAvatar{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .persData{
 
 }
